@@ -1,0 +1,22 @@
+{
+    "name": "giveaway-entries-cli",
+    "version": "1.0.0",
+    "description": "CLI tool for adding entries to the WinLads giveaway system",
+    "main": "add-giveaway-entries.js",
+    "scripts": {
+      "start": "node add-giveaway-entries.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "cli",
+      "giveaway",
+      "entries",
+      "api"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^1.6.2",
+      "dotenv": "^16.3.1"
+    }
+  }
